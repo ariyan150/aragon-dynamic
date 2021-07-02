@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+      @import url('./styles/base.css');
+      @import url('./styles/photo-grid.css');
+      @import url('./styles/modal.css');
+      @import url('./styles/mobile.css');
+      @import url('./styles/little.css');
+    </style>
+    <title>Argo Advertising Group</title>
+</head>
+<body>
+    {% include "header.njk" %}
+    {% include "home.njk" %}
+    {% include "4pages.njk" %}
+    <div class="typography"></div>
+    {% include "about.njk" %}
+    <hr class="linebreake seccond">
+    {% include "products.njk" %}
+    {% include "team.njk" %}
+    <hr class="linebreake third">
+    {% include "contact.njk" %}
+    {% include "modal.njk" %}
+    {% include "scripts.njk" %}
+</body>
+</html>

@@ -1,0 +1,113 @@
+<div class="products" id="products" >
+      <!-- <div class="samplePage__poster " >نمونــه کار</div> -->
+      <ul class="filter-menu video">
+        <li data-target="montakhab" class="current">منتخب</li>
+        <li data-target="namahang" >نماهنگ</li>
+        <li data-target="tizer" >تیزر</li>
+      </ul>
+      <div class="products__col">
+        
+        <div class="products_row">
+          <div class=" primary_video">
+            <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/nUtbD/vt/frame?&recom=none" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+          </div>
+          <div class="videos">
+            {% for vid in collections.vid %}
+                <div class="video_card" data-item={{vid.data.category}} id="pgWaM"><style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/{{vid.data.id}}/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div></div>
+            {% endfor %}
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+
+      <div class="pic_products">
+        <ul class="filter-menu pic">
+          <li data-target="all" class="current">همه طراحی ها</li>
+          <li data-target="visit-card" >کارت ویزیت</li>
+          <li data-target="pic" >عکس</li>
+        </ul>
+
+        <div class="photo-grid">
+
+          <div class="photo-grid__col">
+            <div class="contain_card" data-item="pic">
+              <div 
+              class="card"
+              style="background-image:url(./sample-work/n-poya.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>
+ 
+            <div class="contain_card" data-item="visit-card">
+              <div
+              class="card"
+              style="background-image:url(./sample-work/visit-card/n-221.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>            
+
+            <div class="contain_card" data-item="visit-card">
+              <div 
+              class="card"
+              style="background-image:url(./sample-work/visit-card/n-2553.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>          
+
+          </div>
+
+          <div class="photo-grid__col">
+            <div class="contain_card" data-item="pic"> 
+              <div 
+              class="card"
+              style="background-image:url(./sample-work/n-SARAKHS_3.png)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>
+          
+            <div class="contain_card" data-item="visit-card">
+              <div 
+              class="card"
+              style="background-image:url(./sample-work/visit-card/n-102.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>
+            
+            <div class="contain_card" data-item="visit-card">
+              <div 
+              class="card"
+              style="background-image:url(./sample-work/visit-card/n-elin.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>
+                       
+          </div>
+
+          <div class="photo-grid__col">
+            <div class="contain_card card-tall" data-item="pic">
+              <div
+              class="card card-tall"
+              style="background-image:url(./sample-work/n-ex\ porya\ 2.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>
+            
+            <div class="contain_card" data-item="visit-card">
+              <div 
+              class="card"
+              style="background-image:url(./sample-work/visit-card/n-javan.jpg)">
+              </div>
+              <div class="card_overlay"></div>
+            </div>   
+           
+          </div>
+
+        </div>
+        
+      </div>
+
+
+    </div>

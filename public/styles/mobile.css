@@ -1,0 +1,168 @@
+@media screen and (max-width: 900px) {
+    
+    .mobileHeader {
+        display: flex;
+        position: fixed;
+        width: 100vw;
+        background-color: rgb(36, 36, 36);
+        top: 0;
+        height: 60px;
+        z-index: 100;
+    }
+    .mobileHeader__poster {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        transform: translate(10px, -4px);
+    }
+    .nav__button {
+        display: initial;
+        position: fixed;
+        z-index: 150;
+        cursor: pointer;
+        transition: 300ms;
+        transform: rotate(180deg);
+        top: 10px;
+        right: 20px;
+    }
+    .nav__button.active {
+        transform: rotate(0);
+    }
+    .nav__button img {
+        width: 80px;
+    }
+    .nav__socials, .scroll .nav__socials {
+        margin: 0 auto;
+    }
+    .nav {
+        top: -500px;
+        flex-direction: column-reverse;
+        background-color: rgb(36, 36, 36);
+        transition: none;
+        z-index: 99;
+        padding: 1rem 0;
+    }
+    .nav.active {
+        top: 45px;
+    } 
+    .links {
+        flex-direction: column;
+    }
+    
+    .a {
+        width: 100vw;
+        border-bottom: rgb(138, 138, 138) 1px solid;
+        text-align: right;
+        font-size: 23px;
+        transform: translate(-15px, 0);
+    }
+    a  {
+        font-size: 30px ;
+        color: rgb(255, 255, 255);
+    }
+    .a img {
+        display: none;
+        
+    }
+    .a:first-child, .scroll .a:first-child  {
+        border-top: rgb(138, 138, 138) 1px solid;
+        margin: 0px 0 0 0;
+        font-size: 30px;
+    }
+    .nav__socials {
+        transform: translate(0, 15px);
+    }
+    
+    .scroll .nav__socials a {
+        font-size: 35px;
+    }
+    .fourpages__head {
+        font-size: 150px;
+        text-align: center;
+    }
+    .contain_card, .card {
+        width: 33vw;
+        height: 29vw;
+    }
+    .card {
+        background-size: cover ;
+        background-position: right;
+        /* background-size: 33vw 29vw; */
+    }
+    .primary_video {
+        /* max-width: 300px;
+        min-width: 300px; */
+        display: none;
+    }
+    .aboutPage {
+        transform: translate(0px,0);
+        display: flex;
+        flex-direction: column;
+        background-size: cover  ;
+        background-position: center;
+        min-height: 130vh;
+    }
+    .aboutPage__poster {
+        font-size: 8rem;
+        margin: 200px auto 0 auto;
+        
+    }
+    .aboutPage__col {
+        min-width: 70vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 0px;
+    }
+    .col__qout, .col__def {
+        display: grid;
+        place-items: center;
+        margin: 0;
+    }
+    .team_container {
+        display: block;
+        height: 120vh;
+    }
+    .teamPage__poster {
+        left: 50%;
+        top: -450px;
+        transform: translate(-25%,0);
+    }
+    .team {
+        left: 50%;
+        top: -300px;
+        transform: translate(-40%,0);
+    }
+    .contactPage {
+        margin: 50px 0;
+    }
+    .contactPage__info {
+        text-align: center;
+        color: rgb(131, 131, 131);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .contact_info {
+        margin: 0 0 20px 0;
+    }
+    .form_info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form_buttom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form .textArea textarea {
+        padding: 20px 20px;
+        margin: 0 0px 0 0px;
+        width: 60vw;
+        max-width: 440px;
+    }
+    .contactPage__form .botton {
+        margin: 10px 0 0 0;
+        
+    } 
+  }
