@@ -4,6 +4,15 @@ backend:
 media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"
 collections:
+  - name: 'category'
+    label: 'Category'
+    folder: 'src/products/category'
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
+      - { label: "Persian Title", name: "name", widget: "string" }
+      - { label: "Code Title", name: "title", widget: "string" }
+
   - name: 'vid'
     label: 'video'
     folder: 'src/products/vid'
@@ -14,3 +23,9 @@ collections:
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Tags", name: "tags", widget: "string", default: "vid" }
+
+      - { 
+          label: "Category", name: "category",
+          widget: "relation", collection: "category",
+          search_fields: ["category.name", "category.title"]
+        }
