@@ -313,7 +313,7 @@ a {
     margin: 0 auto 80px auto;
 }
 .linebreake.seccond{
-    margin: 100px auto 0px auto;
+    margin: 100px auto 80px auto;
 }
 .linebreake.third{
     margin: 0px auto 0px auto;
@@ -361,7 +361,7 @@ a {
 .videos {
     margin: 30px 0 0 0;
     display: flex;
-    flex-direction: column;
+    
     flex-wrap: wrap;
     
 }
@@ -482,7 +482,7 @@ a {
     align-items: center;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
-    margin: 0 0;
+    gap: 50px;
     width: 100%;
     min-height: 80vh;
 }
@@ -490,6 +490,7 @@ a {
     text-align: center;
     color: rgb(131, 131, 131);
     display: flex;
+    
     justify-content: space-evenly;
     width: 900px;
 }
@@ -499,11 +500,13 @@ a {
 .contactPage__form {
     display: flex;
     flex-direction: column;
-    margin: 50px 0;
+    justify-content: space-between;
+    gap: 20px;
     font-family: Bamchal;
 }
 .form_info {
     display: flex;
+    gap: 40px;
     flex-direction: row-reverse;
     align-items: center;
     width: 900px;
@@ -515,13 +518,11 @@ a {
     border: rgb(0, 0, 0) 1px solid;
 }
 .contactPage__form input {
-    margin: 11px 20px;
-    padding: 0 20px;
-    width: 100%;
+    width: 98%;
     height: 58px;
 } 
 .contactPage__form .botton {
-    margin: 10px auto 0 0;
+    margin: 0px auto 0 0;
     text-decoration: none;
     border: black 6px solid;
     width: 150px;
@@ -536,12 +537,11 @@ a {
 }
 form .textArea {
     margin: 0 ;
-    padding: 0 0 0 0;
+    padding: 0;
     
 }
 form .textArea textarea {
-    padding: 20px 20px;
-    margin: 0 40px 0 0;
+    padding: 10px;
     resize: none;
     width: 450px;
     height: 138px;
@@ -552,7 +552,13 @@ form .textArea textarea {
     color: rgb(139, 139, 139);
 }
 .name_email {
-    padding: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 350px;
+    
 }
 input[type='text'], input[type='email'], textarea {
     text-align:right;

@@ -88,6 +88,9 @@
         background-position: right;
         /* background-size: 33vw 29vw; */
     }
+    .videos {
+        flex-direction: column;
+    }
     .primary_video {
         /* max-width: 300px;
         min-width: 300px; */
