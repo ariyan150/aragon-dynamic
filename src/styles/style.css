@@ -348,10 +348,7 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
 }
-.video_product {
-    min-width: 25rem;
-    overflow: hidden;
-    margin: 1rem;
+.video_product {  
     transition: 350ms;
 }
 .primary_video {
@@ -359,17 +356,18 @@ a {
     border-radius: 15px;
 }
 .videos {
-    margin: 30px 0 0 0;
+    margin: 30px 0;
     display: flex;
-    
+    gap: 20px;
     flex-wrap: wrap;
-    
 }
 .video_card {
-    width: 300px;
-    border-radius: 3px;
-    margin: 0 0 20px 0px;
+    width: 320px;
+    border-radius: 2px;
     transition: 400ms;
+    overflow: hidden;
+}
+.video_card div {
     overflow: hidden;
 }
 .video_card.delete {
