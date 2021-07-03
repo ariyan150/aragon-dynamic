@@ -2,7 +2,7 @@
       <!-- <div class="samplePage__poster " >نمونــه کار</div> -->
       <ul class="filter-menu video">
       {% for item in collections.category %}
-        <li data-target={{item.title}} class="current">{{item.faname}}</li>
+        <li data-target={{item.data.title}} class="current">{{item.data.faname}}</li>
       {% endfor %}
         {# <li data-target="montakhab" class="current">منتخب</li>
         <li data-target="namahang" >نماهنگ</li>
@@ -16,7 +16,7 @@
           </div> #}
           <div class="videos">
             {% for vid in collections.vid %}
-                <div class="video_card" data-item={{vid.data.category}} id="pgWaM"><style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/{{vid.data.id}}/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div></div>
+                <div class="video_card" data-item={{vid.data.category}}><style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/{{vid.data.id}}/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div></div>
             {% endfor %}
           </div>
         </div>
