@@ -380,9 +380,10 @@ a {
 .filter-menu {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: Sahel;
     margin: 1rem 0;
-    transform: translate(-20px, 0);
+    
 }
 .filter-menu li {
     font-size: 1.3rem;
@@ -401,7 +402,6 @@ a {
 .filter-menu li:hover {
     color: rgb(54, 54, 54);
     cursor: pointer;
-    
 }
 .contain_card.delete {
     width: 0;

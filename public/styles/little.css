@@ -84,8 +84,8 @@
     }
     .filter-menu {
         flex-direction: column;
-        align-items: center;
     }
+    
     .filter-menu li.current {
         font-size: 1.5rem;
         transform: translate(0, 0);
