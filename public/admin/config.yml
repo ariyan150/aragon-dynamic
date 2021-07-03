@@ -22,7 +22,6 @@ collections:
     fields: 
       - { label: "Title", name: "vidtitle", widget: "string" }
       - { label: "ID", name: "id", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
       - { label: "Tags", name: "tags", widget: "string", default: "vid" }
 
       - { 
