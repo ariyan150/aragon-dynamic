@@ -334,6 +334,7 @@ a {
     justify-content: space-around;
     align-items: center;
     min-height: 70vh;
+    margin: 3rem 0 0 0;
 }
 .products__col {
     position: relative;
@@ -358,7 +359,7 @@ a {
     border-radius: 15px;
 }
 .videos {
-    margin: 18px 0 0 0;
+    margin: 30px 0 0 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -366,9 +367,10 @@ a {
 }
 .video_card {
     width: 300px;
-    border-radius: 10px;
-    margin: 0 0 20px 20px;
+    border-radius: 3px;
+    margin: 0 0 20px 0px;
     transition: 400ms;
+    overflow: hidden;
 }
 .video_card.delete {
     width: 0;
