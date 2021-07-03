@@ -12,6 +12,7 @@
       @import url('./styles/mobile.css');
       @import url('./styles/little.css');
     </style>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Argo Advertising Group</title>
 </head>
 <body>
@@ -27,5 +28,18 @@
     {% include "contact.njk" %}
     {% include "modal.njk" %}
     {% include "scripts.njk" %}
+
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </body>
 </html>
