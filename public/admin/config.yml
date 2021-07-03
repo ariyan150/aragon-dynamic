@@ -27,6 +27,6 @@ collections:
       - { 
           label: "Category", name: "category",
           widget: "relation", collection: "category",
-          search_fields: ["category.name", "category.title"],
-          value_field: "category.name"
+          search_fields: ["faname"],
+          value_field: "faname"
         }
