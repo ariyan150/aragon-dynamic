@@ -10,7 +10,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
-      - { label: "Persian Title", name: "name", widget: "string" }
+      - { label: "Persian Title", name: "faname", widget: "string" }
       - { label: "Code Title", name: "title", widget: "string" }
       - { label: "Tags", name: "tags", widget: "string", default: "category" }
 
@@ -20,7 +20,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "vidtitle", widget: "string" }
       - { label: "ID", name: "id", widget: "string" }
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Tags", name: "tags", widget: "string", default: "vid" }
