@@ -28,5 +28,5 @@ collections:
           label: "Category", name: "category",
           widget: "relation", collection: "category",
           search_fields: ["faname"],
-          value_field: "faname"
+          value_field: "title"
         }

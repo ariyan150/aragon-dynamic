@@ -1,9 +1,12 @@
 <div class="products" id="products" >
       <!-- <div class="samplePage__poster " >نمونــه کار</div> -->
       <ul class="filter-menu video">
-        <li data-target="montakhab" class="current">منتخب</li>
+      {% for item in collections.category %}
+        <li data-target={{item.title}} >{{item.faname}}</li>
+      {% endfor %}
+        {# <li data-target="montakhab" class="current">منتخب</li>
         <li data-target="namahang" >نماهنگ</li>
-        <li data-target="tizer" >تیزر</li>
+        <li data-target="tizer" >تیزر</li> #}
       </ul>
       <div class="products__col">
         
