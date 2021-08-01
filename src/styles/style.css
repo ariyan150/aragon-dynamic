@@ -245,9 +245,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
     margin: 0 0 1rem 0;
-    left: -200px;
+    min-width: 450px;
+    left: -300px;
 }
 .team__row {
     min-width: 300px;
@@ -280,7 +280,7 @@ a {
     align-items: center;
     margin: 10px 0;
     overflow: hidden;
-    width: 250px;
+    min-width: 250px;
 }
 .person .infos {
     display: flex;
@@ -300,12 +300,12 @@ a {
 }
 .person .info {
     color: rgb(97, 96, 96);
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 0.9rem;
     margin: 0 0 -0.6rem 0;
 }
 .person .img img {
-    width: 5.1rem;
+    width: 70px;
     filter: grayscale(100%);
 }
 .linebreake {
