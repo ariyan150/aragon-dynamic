@@ -174,7 +174,7 @@ a {
 }
 .fourpages__head {
     flex: 8;
-    font-size: 230px;
+    font-size: 220px;
     font-weight: bolder;
     margin: -7rem 0 0 0;
     display: flex;
@@ -190,6 +190,15 @@ a {
 }
 .each__def {
     padding: 17px 0 0 0;
+}
+.yon {  
+    background-repeat: no-repeat;
+    background-size: contain ;
+    height: 121vh;
+    display: flex;
+    background-image: url(../assets/yon.jpg);
+    color: rgba(109, 255, 153, 0.425);
+    background-attachment: initial;
 }
 .fourpages__design {  
     background-image: url(../4pages/DESIGN\ 2.jpg);
