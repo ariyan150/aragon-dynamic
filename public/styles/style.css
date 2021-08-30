@@ -191,6 +191,11 @@ a {
 .each__def {
     padding: 17px 0 0 0;
 }
+
+.xxx {
+    height: 102vh;
+    overflow-y: hidden;
+}
 .yon {  
     background-repeat: no-repeat;
     background-size: contain ;
@@ -200,6 +205,7 @@ a {
     color: rgba(109, 255, 153, 0.425);
     background-attachment: initial;
 }
+
 .fourpages__design {  
     background-image: url(../4pages/DESIGN\ 2.jpg);
     color: rgba(109, 255, 153, 0.425);
