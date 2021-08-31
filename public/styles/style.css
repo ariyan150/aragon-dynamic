@@ -207,10 +207,10 @@ a {
 }
 .sarkh {  
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: contain  ;
     height: 121vh;
     display: flex;
-    background-image: url(../assets/sarkh.jpg);
+    background-image: url(../assets/sarkh4.png);
     color: rgba(109, 255, 153, 0.425);
     background-attachment: initial;
 }

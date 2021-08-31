@@ -1,4 +1,10 @@
 @media screen and (max-width: 500px) {
+    .yon, .sarkh {
+        background-size: cover;
+    }
+    .sarkh {
+        background-position: center;
+    }
     .home-1 .banner {
         width: auto;
         position: relative;
