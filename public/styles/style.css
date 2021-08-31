@@ -201,7 +201,16 @@ a {
     background-size: contain ;
     height: 121vh;
     display: flex;
-    background-image: url(../assets/yon.jpg);
+    background-image: url(../assets/yon2.jpg);
+    color: rgba(109, 255, 153, 0.425);
+    background-attachment: initial;
+}
+.sarkh {  
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 121vh;
+    display: flex;
+    background-image: url(../assets/sarkh.jpg);
     color: rgba(109, 255, 153, 0.425);
     background-attachment: initial;
 }
